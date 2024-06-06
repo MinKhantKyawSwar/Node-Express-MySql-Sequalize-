@@ -30,7 +30,8 @@ textarea {
   padding: 4px 10px;
 }
 
-button {
+button,
+.btn-edit {
   display: block;
   margin: 10px 0;
   color: white;
@@ -38,6 +39,7 @@ button {
   background-color: black;
   padding: 8px 0;
   width: 100%;
+  text-align: center;
 }
 
 .mx-auto {
@@ -60,16 +62,16 @@ button {
   text-transform: uppercase;
 }
 
-.details h1{
+.details h1 {
   text-align: center;
   margin: 20px 0;
 }
 
-.details img{
+.details img {
   width: 100%;
   object-fit: cover;
 }
 
-.details p{
+.details p {
   font-size: 17px;
 }
