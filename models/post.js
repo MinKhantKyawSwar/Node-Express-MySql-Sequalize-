@@ -29,7 +29,8 @@
 const Sequalize = require("sequelize");
 
 const sequalize = require("../utils/database");
-const { post } = require("../routes/post");
+
+// const { post } = require("../routes/post");
 
 const Post = sequalize.define("post", {
   id: {
